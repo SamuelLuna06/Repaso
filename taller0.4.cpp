@@ -19,7 +19,7 @@ int main(){
     }else{
         horasExtra = cantidadHoras - 35;
         salarioParcial = (cantidadHoras - horasExtra) * 40000;
-        extra = horasExtra * 50000;
+        extra = horasExtra * 45000;
         salarioSemanal = salarioParcial + extra;
         cout << "Su salario semanal es de " << salarioSemanal << endl;
     }
