@@ -17,7 +17,7 @@ int main(){
     cout << "Ingrese la distancia entre las ciudades: " << endl;
     cin >> distancia;
 
-    tiempo = distancia / (velocidadA + velocidadB);
+    tiempo = distancia / (velocidadA - velocidadB);
 
     cout << "El tiempo que tardaran los coches en cruzarse es de " << tiempo << endl;
 
